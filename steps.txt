@@ -1,4 +1,1 @@
-1-convert pdf to html using https://convertio.co/download/0799a8243eed9c582237d76b8c4976613ce12e/
-2-rename the file to index.html
-3-push to github
-4-host on vercel or any other platform
+just add a resume.pdf file 
