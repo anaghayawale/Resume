@@ -55,33 +55,10 @@
       <a href="mailto:anaghayawale7@gmail.com" style="font-size: 20px;">anaghayawale7@gmail.com</a><br>
       <a href="tel:+918390319324" style="font-size: 20px;">+91 8390319324</a>
     </div>
-
-    <br/>
     <div style="font-size: 18px; font-family: 'Times New Roman', serif; text-align: center;">
-      Unable to display resume. 
-      <a href="resume.pdf" download style="color: #007BFF; text-decoration: underline;">Download</a> instead.
+      <a href="resume.pdf" download style="color: #551A8B; text-decoration: underline;">Download Resume</a>
     </div>
   </div>
-
-  <script>
-    const pdf = document.getElementById("pdf-view");
-    const fallback = document.getElementById("fallback");
-
-    fetch("resumee.pdf")
-      .then(res => {
-        if (res.ok) {
-          pdf.style.display = "block";
-          fallback.style.display = "none";
-        } else {
-          pdf.style.display = "none";
-          fallback.style.display = "flex";
-        }
-      })
-      .catch(() => {
-        pdf.style.display = "none";
-        fallback.style.display = "flex";
-      });
-  </script>
 
 </body>
 </html>
